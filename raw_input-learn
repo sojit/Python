@@ -1,0 +1,17 @@
+import time
+
+print "whats your name:?"
+time.sleep(2)
+name = raw_input("name?")
+
+#Lets we ask the age 
+#print "How old are you?"
+u = int(raw_input("How old are you?"))
+time.sleep(2)
+print "So it's",u,"year"
+time.sleep(2)
+#Lets calculate the in in x years
+print "Do you want to no in future" #if so add the years:
+time.sleep(2)
+num = int(raw_input("if so add the years:"))
+print "so in", num, "years you will be",u+num,"years old."
