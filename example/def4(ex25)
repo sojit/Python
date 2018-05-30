@@ -29,3 +29,20 @@ def print_first_and_last_sorted(sentence):
     word = sort_sentence(sentence)
     print_first_word(words)
     print_last_word(words)
+
+sentence = "All good things come to those who waits."
+words = break_words(sentence)
+print_first_word(words)
+print_last_word(words)
+
+word_sorted = sort_words(words)
+
+print_first_word(word_sorted)
+print_last_word(word_sorted)
+
+#sorted_word = sort_sentence(sentence)
+print_first_and_last(sentence)
+
+
+
+print_first_and_last_sorted(sentence)
