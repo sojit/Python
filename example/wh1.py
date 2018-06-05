@@ -2,7 +2,7 @@ import time
 i = 0
 numbers = []
 
-while i<10: #while will run when the condition is True so it will run till i = 9, the while loop will close whe the i =10.
+while i<10: #while will run when the condition is True so it will run till i = 9, the while loop will close when the i =10.
    print "i is %d" %i #here we print value from the variable i
    numbers.append(i)  #append to the variable to the list
 
