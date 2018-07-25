@@ -1,3 +1,3 @@
 # Python 
 
-Looking forward with python need to keep slow and study to continue.
+I'm started to learn and Looking forward with it. Importeantly I have to keep momentum to stay in the track.
