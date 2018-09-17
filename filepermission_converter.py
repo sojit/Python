@@ -17,14 +17,14 @@ class symbolicp:
         elif self.read == "-":
             return "0"
  
- def write_ugo(self):
+   def write_ugo(self):
         if self.write == "w":
             return 2
         elif self.write == "-":
             return "0"
 
  
- def execute_ugo(self):
+   def execute_ugo(self):
         if self.execute == "x":
            return 1
         elif self.execute == "-":
