@@ -15,20 +15,20 @@ class symbolicp:
         if self.read == "r":
             return 4
         elif self.read == "-":
-            return "0"
+            return int(0)
  
    def write_ugo(self):
         if self.write == "w":
             return 2
         elif self.write == "-":
-            return "0"
+            return int(0)
 
  
    def execute_ugo(self):
         if self.execute == "x":
            return 1
         elif self.execute == "-":
-            return "0"
+            return int(0)
 
 file_permission = input("Enter the value:")
 fp = file_permission.split()
