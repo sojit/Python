@@ -31,7 +31,7 @@ class symbolicp:
         elif self.execute == "-":
             return int(0)
 
-file_permission = input("Enter the value:")
+file_permission = input("Enter the symbolic value:")
 fp = file_permission.split()
 for list in fp:
    user = symbolicp(list[0], list[1], list[2])
