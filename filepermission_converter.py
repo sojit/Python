@@ -1,9 +1,10 @@
+#!/usr/bin/python3
+#Author: Soji
+#version: v1.0
+''' 
+This script is to conver the symbolic file permission to octal permission 
+and the required input for this code is "rwxrwxrwx" or "r-xr-xr-x". 
 '''
-Its under writing so far I could convert the sysbolic link to its octal values, but yet to fill few gaps.
-'''
-
-
-
 class symbolicp:
 
     def __init__(self, read, write, execute):
@@ -42,4 +43,4 @@ one = (user.read_ugo() + user.write_ugo() + user.execute_ugo())
 two = (group.read_ugo() + group.write_ugo() + group.execute_ugo())
 three = (other.read_ugo() + other.write_ugo() + other.execute_ugo())
 
-print(one,two,three)
+print("The octal value is:" one,two,three)
