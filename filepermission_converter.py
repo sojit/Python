@@ -32,15 +32,15 @@ class symbolicp:
             return int(0)
 
 file_permission = input("Enter the symbolic value:")
-fp = file_permission.split()
-for list in fp:
-   user = symbolicp(list[0], list[1], list[2])
-   group = symbolicp(list[3], list[4], list[5])
-   other = symbolicp(list[6], list[7], list[8])
+f_p = file_permission.split()
+for list in f_p:
+   USR = symbolicp(list[0], list[1], list[2])
+   GRP = symbolicp(list[3], list[4], list[5])
+   OTH = symbolicp(list[6], list[7], list[8])
 
 
-one = (user.read_ugo() + user.write_ugo() + user.execute_ugo())
-two = (group.read_ugo() + group.write_ugo() + group.execute_ugo())
-three = (other.read_ugo() + other.write_ugo() + other.execute_ugo())
+USR1 = (USR.read_ugo() + USR.write_ugo() + USR.execute_ugo())
+GRP1 = (GRP.read_ugo() + GRP.write_ugo() + GRP.execute_ugo())
+OTH1 = (OTH.read_ugo() + OTH.write_ugo() + OTH.execute_ugo())
 
-print("The octal value is:",one,two,three)
+print("The octal value is:",USR1,GRP1,OTH1)
