@@ -43,4 +43,4 @@ one = (user.read_ugo() + user.write_ugo() + user.execute_ugo())
 two = (group.read_ugo() + group.write_ugo() + group.execute_ugo())
 three = (other.read_ugo() + other.write_ugo() + other.execute_ugo())
 
-print("The octal value is:" one,two,three)
+print("The octal value is:",one,two,three)
