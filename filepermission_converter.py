@@ -2,8 +2,8 @@
 #Author: Soji
 #version: v1.0
 ''' 
-This script is to conver the symbolic file permission to octal permission 
-and the required input for this code is "rwxrwxrwx" or "r-xr-xr-x". 
+This script is to convert the Linux symbolic file permission to octal permission 
+and the expected input for this code is "rwxrwxrwx" or "r-xr-xr-x". This script is build to work on python3.
 '''
 class symbolicp:
 
