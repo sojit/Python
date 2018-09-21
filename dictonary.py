@@ -11,10 +11,10 @@ def js(word):
            return data[word]
     
         else:
-           return "The provided word not exsist"
+           return "The provided word is not exsist"
 
     except KeyError:
-       return "Provided a meaningless output"
+       return "Provided a meaningless input"
 
 word = input("Enter the word:")
 
